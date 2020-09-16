@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-semantic-release-app"
+    }
+  },
+  "defaultProject": "my-semantic-release-app",
+  "cli": {
+    "analytics": "a36449de-3d02-4584-a51a-47d5d30e8dd6"
+  }
 }
