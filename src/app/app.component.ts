@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { version } from '../../package.json';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NG Test App';
-  appVersion = '1.0';
+  public appVersion: string = version;
 }
